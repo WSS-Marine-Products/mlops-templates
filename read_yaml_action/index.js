@@ -44,10 +44,10 @@ try {
     }
 
     if(checkGenerateEntity(terraform_st_resource_group)){
-      terraform_st_resource_group = "rg-"+namespace+"-"+postfix+environment+"-tf";
+      terraform_st_resource_group = "rg-"+namespace+"-"+postfix+environment;
     }
     if(checkGenerateEntity(terraform_st_storage_account)){
-      terraform_st_storage_account = "st"+namespace+postfix+environment+"tf";
+      terraform_st_storage_account = "str"+"mplmpcv"+postfix+environment;
     }
 
     const batch_endpoint_name = "bep-"+namespace+"-"+postfix+environment;
